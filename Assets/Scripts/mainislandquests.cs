@@ -31,6 +31,7 @@ public class mainislandquests : MonoBehaviour
             Questcomplated = true;
             QBanerSHow();
             Invoke("QBanerHide", 3);
+            Debug.Log("aa");
         }
 
         ChekQuestStatus();
